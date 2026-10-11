@@ -1,0 +1,5 @@
+*.soft filter=lfs diff=lfs merge=lfs -text
+*.soft.gz filter=lfs diff=lfs merge=lfs -text
+*.txt.gz filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+scripts/ACRG_log2_genes.tsv filter=lfs diff=lfs merge=lfs -text
