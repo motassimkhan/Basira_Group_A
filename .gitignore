@@ -1,0 +1,8 @@
+# Ignore everything in data/ subfolders
+mutation/*
+database/*
+.venv
+
+# ...except the sample sheets
+!mutation/gdc_sample_sheet.2026-10-11.tsv
+!database/gdc_sample_sheet.2026-10-11.tsv
