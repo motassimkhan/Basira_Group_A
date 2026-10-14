@@ -11,18 +11,14 @@ maf = pd.concat(
 )
 
 # 2. Patient and sample-type IDs from the barcode
-#    TCGA-AB-1234-01A-...  ->  patient = TCGA-AB-1234, sample type = 01
 maf["patient"] = maf["Tumor_Sample_Barcode"].str[:12]
 maf["sample_type"] = maf["Tumor_Sample_Barcode"].str[13:15]
 
 # 3. Keep one tumor type per patient (primary solid tumor = 01).
-#    Change to ["01", "06"] etc. if your cancer type is mostly metastatic (e.g. SKCM).
 PRIMARY = {"01"}
 maf = maf[maf["sample_type"].isin(PRIMARY)]
 
-# 4. Patient universe = every patient present in the MAFs, BEFORE any variant filtering.
-#    This way patients whose only variants are silent/intronic are correctly counted
-#    as "neither" instead of vanishing.
+# 4. Patient count
 patients = set(maf["patient"].unique())
 
 # 5. Non-silent coding variants
