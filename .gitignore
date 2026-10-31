@@ -1,12 +1,7 @@
 # Ignore everything in data/ subfolders
-mutation/*
 data_rna/*
 .venv
 
 # ...except the sample sheets
-!mutation/gdc_sample_sheet.2026-10-11.tsv
+
 !data_rna/gdc_sample_sheet.2026-10-11.tsv
-!mutation/maf_files/
-mutation/maf_files/**
-!mutation/maf_files/**/
-!mutation/maf_files/**/*.maf.gz
