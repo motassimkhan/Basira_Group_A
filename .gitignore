@@ -1,7 +1,3 @@
-# Ignore everything in data/ subfolders
-data_rna/*
 .venv
 
-# ...except the sample sheets
 
-!data_rna/gdc_sample_sheet.2026-10-11.tsv
