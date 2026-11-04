@@ -1,3 +1,5 @@
+# Ignore raw RNA-seq download folders
+data_rna/*/
+!data_rna/biospecimen.cart.2026-10-06/
+!data_rna/clinical.cart.2026-10-06/
 .venv
-
-

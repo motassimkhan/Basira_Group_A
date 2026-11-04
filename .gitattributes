@@ -3,8 +3,11 @@
 *.idat.gz filter=lfs diff=lfs merge=lfs -text
 *.bgx.gz filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+*.CEL.gz filter=lfs diff=lfs merge=lfs -text
 *.soft filter=lfs diff=lfs merge=lfs -text
 *.soft.gz filter=lfs diff=lfs merge=lfs -text
 *.txt.gz filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
 scripts/ACRG_log2_genes.tsv filter=lfs diff=lfs merge=lfs -text
+scripts/GPL570_annotation.csv filter=lfs diff=lfs merge=lfs -text
+validation_data/**/*.txt filter=lfs diff=lfs merge=lfs -text
