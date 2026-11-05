@@ -1,0 +1,161 @@
+Sample	Case	Age	"Sex (1: Male, 2: Female)"	"Ethnicity (1: White/Caucasian, 2: Slavic, 3: Persian, 4: Jamaican)"	"Tumor Site (1: Antrum, 2: Body, 3: Pylorus, , 4: Fundus, 5: Other)"	"Histology (1: tubular adenocarcinoma, 2: Signet Ring cell, 3: Mucinous adenocarcinoma, 4: NOS/mixed, 5: Papillary adenocarcinoma)"	"Metastatic at Diagnosis (1: No, 2: Yes)"	Metastatic Disease/Recurrence Site	Pathologic T Stage	Pathologic N Stage	"Residual Tumor (1: R0, 2: R1, 3: R2, 4: Rx)"	Pathologic Stage	Percent Tumor Nuclei	"Baseline ECOG (0-5, 6: N/A)"	Baseline KPS (0-100)	"Family History of Gastric Cancer (1: No, 2: Yes, 3: Unknown)"	"H Pylori Status (1: Negative, 2: Positive, 3: Unknown)"	"HER2 Status (1: Negative, 2: Positive, 3: Unknown)"	"MSI Status (1: stable, 2: high, 3: unknown)"	"Baseline CEA (1: Normal, 2: Elevated, 3: Unknown)"	"Baseline CA 19-9 (1: Normal, 2: Elevated, 3: Unknown)"	"Alcohol History (1: Lifelong non-drinker, 2: ≤ 2 drinks/d for men or ≤1 drink/d for women, 3: past history, current non-drinker, 4: N/A"	"Smoking History (1: lifelong non-smoker, 2: current smoker, 3: current reformed smoker, 4: N/A)"	"Post-op Treatment (1: Yes, 2: No, 3: Unknown)"	"Post-op Treatment Modality 0 (1: Chemotherapy, 2: Immunotherapy, 3: Chemotherapy/Immunotherapy, 4: Radiation, 5: Chemotherapy/Radiation, 6: N/A)"	Post-op Treatment Modality Details	"Follow Up Period (1: 12 months, 2: 24 months, 3: 36 months, 4: 48 months, 5: unknown)"	"Lost to Follow Up (1: No, 2: Yes, 3: Unknown)"	Overall_Survival	"Clinical Outcome (1: CR, 2: PR, 3: SD, 4: PD, 5: Unknown/Not Evaluable)"	Overall_Survival
+CAT	CAT	CON	BIN	CAT	CAT	CAT	BIN	CAT	ORD	ORD	ORD	ORD	CON	CAT	CON	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	CAT	SUR_event	CAT	SUR_time
+C3L.04911.T	C3L.04911	83	1	1	1	1	1	NA	pT3	pN3b	1	IIIC	80	0	100	1	3	3	3	3	3	2	1	2	6	NA	3	1	0	1	1036
+C3L.05477.T	C3L.05477	67	1	1	2	1	1	NA	pT3	pN3a	4	IIIB	80	6		3	1	3	3	3	3	4	4	2	6	NA	1	2	0	5	0
+C3L.05478.T	C3L.05478	73	2	1	2	1	1	NA	pT3	pN0	4	IIA	80	6		3	1	3	1	3	3	4	4	2	6	NA	1	2	0	5	2
+C3L.05480.T	C3L.05480	61	1	1	2	3	1	NA	pT3	pN3b	4	IIIB	65	6		3	1	3	1	3	3	4	4	2	6	NA	1	2	0	5	11
+C3L.05601.T	C3L.05601	75	1	1	1	1	1	NA	pT4a	pN2	1	IIIA	80	1		1	3	3	3	3	3	1	1	2	6	NA	3	1	0	1	1160
+C3L.05983.T	C3L.05983	52	1	1	2	4	1	NA	pT3	pN2	1	IIIA	80	1		1	3	3	3	3	3	1	1	1	4	XRT (CR)	3	1	0	1	1078
+C3L.06124.T	C3L.06124	67	2	1	3	5	1	NA	pT3	pN1	4	IIB	60	1	70	1	3	3	3	3	3	4	1	2	6	NA	1	2	0	1	334
+C3L.06174.T	C3L.06174	71	1	1	1	2	1	NA	pT4a	pN3b	1	IIIC	70	1	90	1	3	3	3	1	3	2	1	1	5	5FU+XRT (CR)	3	2	0	1	761
+C3L.06209.T	C3L.06209	72	1	1	2	2	1	NA	pT4a	pN3b	1	IIIC	60	1	90	1	3	3	3	3	3	2	2	1	1	5FU (CR)	2	2	1	4	564
+C3L.06219.T	C3L.06219	66	1	1	1	4	1	NA	pT3	pN1	1	IIB	80	6		1	3	3	3	3	3	3	2	2	6	NA	3	1	0	2	1120
+C3L.06228.T	C3L.06228	63	1	1	1	1	1	"New liver mets 405 Date of Initial Cancer Diagnosis to Date of New Tumor Event, no treatment"	pT4a	pN2	1	IIIA	70	0	100	1	3	3	3	3	3	1	1	1	1	5FU Paclitaxel (PD)	2	1	0	4	651
+C3L.06231.T	C3L.06231	74	1	1	5	1	1	NA	pT3	pN1	4	IIB	60	1	100	1	3	3	3	1	1	2	2	1	1	5-FU/LV (CR)	2	1	0	1	631
+C3L.06316.T	C3L.06316	65	1	1	1	4	1	NA	pT4a	pN1	2	IIIA	80	2		1	3	3	3	3	3	1	1	2	6	NA	3	1	0	1	1139
+C3L.06413.T	C3L.06413	84	1	1	2	1	1	NA	pT1	pN0	4	IA	60	2	70	1	3	3	3	3	3	1	1	2	6	NA	1	2	0	1	264
+C3L.06418.T	C3L.06418	68	1	1	4	1	1	NA	pT4a	pN1	1	IIIA	60	1	90	1	3	3	3	3	3	1	1	1	1	Cisplatin+oxaliplatin+docetaxel+5-FU (CR)	3	2	0	1	1099
+C3L.06421.T	C3L.06421	52	1	1	1	1	1	"Liver mets 52 days from dx, 61 days to additional surgery for new tumor event with R0 resection"	pT4a	pN2	1	IIIA	60	1	80	1	3	3	3	3	3	1	3	1	1	"cisplatin (PD - Enlargement of foci upon CT control with contrast, operative treatment suggested), oxaliplatin, 5-FU, docetaxel (PD - Emergence of new foci in the right hepatic lobe that accumulated the contrast)"	2	2	0	3	742
+C3L.06423.T	C3L.06423	60	2	1	2	1	1	NA	pT4a	pN0	1	IIB	60	1	90	1	3	3	3	3	3	1	1	1	1	5-FU+Cisplatin+oxaliplatin+docitaxel (CR)	1	2	0	1	396
+C3L.06459.T	C3L.06459	72	1	1	2	1	1	NA	pT3	pN3a	2	IIIB	75	6		3	3	3	3	3	3	1	1	1	4	XRT (CR)	2	1	0	1	713
+C3L.06474.T	C3L.06474	62	1	1	2	1	1	NA	pT4a	pN1	1	IIIA	80	6		3	1	3	3	2	2	1	1	1	1	5FU (CR)	2	1	0	1	747
+C3L.06639.T	C3L.06639	69	1	1	2	1	1	NA	pT4a	pN3a	2	IIIC	80	1	90	1	1	3	1	1	1	1	2	2	6	NA	1	2	0	5	0
+C3L.06641.T	C3L.06641	76	1	1	2	3	1	NA	pT3	pN2	1	IIIA	60	1	80	1	1	3	1	1	1	1	2	2	6	NA	1	2	0	5	0
+C3L.06642.T	C3L.06642	71	2	1	2	4	1	NA	pT3	pN3	1	IIIB	80	1	80	1	1	3	1	1	1	1	1	2	6	NA	1	2	0	1	315
+C3L.06648.T	C3L.06648	53	1	1	3	2	1	NA	pT4a	pN3a	2	IIIC	70	1	90	1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	0
+C3L.06649.T	C3L.06649	64	1	1	3	2	1	NA	pT3	pN1	1	IIB	80	1	80	1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	0
+C3L.06706.T	C3L.06706	46	1	1	2	1	1	NA	pT3	pN1	1	IIB	80	1	90	1	3	3	3	3	3	1	1	1	1	5-FU+Cisplatin+oxaliplatin+docetaxel (CR)	1	2	0	1	366
+C3L.06707.T	C3L.06707	52	2	1	5	3	1	NA	pT3	pN1	1	IIB	50	1	90	3	3	3	3	3	3	1	1	1	1	Docetaxelum	1	2	0	5	118
+C3L.06716.T	C3L.06716	69	1	1	1	3	1	NA	pT3	pN1	4	IIB	60	2	60	1	3	3	3	3	3	3	1	1	1	Docetaxel Oxaliplatin 5-FU (CR)	1	2	0	1	317
+C3L.06766.T	C3L.06766	50	1	1	4	4	1	NA	pT3	pN1	4	IIB	70	3	50	1	3	3	3	3	3	3	2	2	6	NA	1	2	0	5	388
+C3L.06774.T	C3L.06774	48	1	1	1	1	1	NA	pT2	pN2	1	IIB	60	1	90	1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	18
+C3L.06776.T	C3L.06776	57	2	1	4	2	1	NA	pT3	pN2	1	IIIA	80	2	80	1	3	3	3	3	3	3	1	2	6	NA	1	1	1	5	19
+C3L.06922.T	C3L.06922	53	1	1	5	4	1	NA	pT4	pN0	1	IIIA	85	3	50	3	3	3	3	3	3	1	1	1	1	Carboplatin Cisplatin (CR)	1	2	0	1	422
+C3L.06925.T	C3L.06925	75	1	1	5	2	1	NA	pT3	pN0	1	IIA	80	2	80	3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	5
+C3L.06935.T	C3L.06935	56	2	1	2	3	1	NA	pT4b	pN0	1	IIIA	80	1	90	1	3	3	3	3	3	1	1	2	6	NA	1	2	1	5	32
+C3L.06937.T	C3L.06937	71	1	1	5	2	1	NA	pT4a	pN3a	1	IIIB	60	1	80	1	3	3	3	3	3	1	1	1	1	Oxaliplatin+Docetaxil+Cisplatin+5FU (CR) ->5FU+oxaliplatin (CR)	4	1	0	1	1457
+C3L.06940.T	C3L.06940	69	1	1	5	1	1	NA	pT3	pN3a	1	IIIB	85	2	70	2	3	3	3	3	3	2	3	1	1	Cisplatin+docetaxelum+5FU+oxaliplatin (CR)	1	2	0	1	258
+C3L.07057.T	C3L.07057	72	1	1	5	3	1	NA	pT2	pN1	1	IIA	60	6		3	1	3	3	3	3	1	1	1	1	UNK Chemotherapy (SD)	2	1	0	1	651
+C3L.07069.T	C3L.07069	71	2	1	2	4	1	NA	pT3	pN0	1	IIA	80	6		1	3	3	3	3	3	1	1	1	1	Docetaxel	1	1	0	5	314
+C3L.07080.T	C3L.07080	74	1	1	5	1	1	NA	pT3	pN2	4	IIIA	60	0	100	3	3	3	3	3	3	1	1	1	2	Nivolumab (CR)	3	1	0	1	1141
+C3L.07081.T	C3L.07081	68	1	1	5	1	1	NA	pT3	pN0	4	IIA	80	6		3	3	3	3	3	3	1	1	2	6	NA	3	1	0	1	1142
+C3L.07082.T	C3L.07082	69	2	1	1	1	1	NA	pT1	pN0	1	IA	60	1		1	3	3	3	3	3	1	1	1	4	XRT (CR)	3	1	0	1	1074
+C3L.07090.T	C3L.07090	82	1	1	5	1	1	NA	pT4a	pN1	4	IIIA	80	1		1	3	3	3	3	3	1	3	2	6	NA	3	1	0	1	1153
+C3L.07093.T	C3L.07093	55	2	1	1	1	1	NA	pT3	pN1	1	IIB	60	6		3	1	3	3	1	3	1	1	1	4	XRT (CR)	3	1	0	1	1114
+C3L.07096.T	C3L.07096	49	2	1	5	3	1	NA	pT4a	pN3a	2	IIIB	65	6		3	1	3	3	1	1	1	1	1	1	UNK Chemotherapy (SD)	2	1	0	3	700
+C3L.07099.T	C3L.07099	87	1	1	2	4	1	NA	pT4a	pN3b	1	IIIC	80	6		3	1	3	3	2	1	1	1	1	1	Fluorouracil (SD)	3	1	0	1	1082
+C3L.07107.T	C3L.07107	61	1	1	1	4	1	NA	pT3	pN3a	1	IIIB	60	0		3	3	3	3	3	3	1	1	2	6	NA	3	2	0	1	610
+C3L.07123.T	C3L.07123	76	2	3	2	1	1	Lung nodules at 439 days	pT3	pN1	1	IIB	65	1	80	1	1	3	3	3	3	1	1	1	1	Capecitabine x 8 cycles(CR)	4	1	0	1	1037
+C3L.07144.T	C3L.07144	68	1	1	1	1	1	NA	pT3	pN2	1	IIIA	80	0	100	3	3	3	3	3	3	1	1	1	1	Irinotecan 5-Ftouracil Calcium Folinate and Oxaliplatin Capecitabine	2	2	0	5	255
+C3L.07145.T	C3L.07145	83	2	2	1	4	1	NA	pT3	pN0	1	IIA	80	0	100	3	3	3	3	3	3	3	1	2	6	NA	1	1	1	1	29
+C3L.07146.T	C3L.07146	82	2	1	5	4	1	NA	pT3	pN3	1	IIIB	85	0	100	3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	12
+C3L.07147.T	C3L.07147	77	2	1	5	4	1	NA	pT3	pN1	1	IIB	70	0	100	3	3	3	3	3	3	3	1	2	6	NA	1	2	0	5	13
+C3L.07154.T	C3L.07154	53	1	2	5	2	1	"Peritoneum 217 days, surgery, RX"	pT3	pN0	1	IIA	70	0	100	1	3	3	3	3	3	1	1	1	1	"Oxaliplatin, Capecitabine  (PR)"	1	2	0	5	199
+C3L.07165.T	C3L.07165	70	2	1	5	4	1	NA	pT3	pN3	1	IIIB	80	0	100	3	3	3	3	3	3	1	1	1	1	Oxaliplatin 5-Fluoracil Calcium Folinate (CR)	1	2	0	1	147
+C3L.07534.T	C3L.07534	48	2	1	3	1	1	NA	pT3	pN2	4	IIIA	60	0	100	1	3	3	3	3	3	1	1	2	6	NA	1	1	1	4	356
+C3L.07535.T	C3L.07535	74	2	1	2	1	1	NA	pT3	pN1	1	IIB	70	6		2	3	3	3	3	3	1	1	2	6	NA	2	1	0	1	699
+C3L.07541.T	C3L.07541	79	2	1	1	3	1	NA	pT4a	pN2	1	IIIA	65	2	60	1	3	3	3	1	1	1	1	2	6	NA	2	1	0	1	708
+C3L.07542.T	C3L.07542	74	1	1	1	4	1	NA	pT4a	pN1	1	IIIA	60	0	100	3	3	3	3	3	3	2	1	2	6	NA	1	2	0	1	372
+C3L.07544.T	C3L.07544	49	2	1	1	2	1	NA	pT4a	pN2	1	IIIA	60	0	100	3	3	3	3	3	3	1	1	1	4	XRT (CR)	3	2	0	5	288
+C3L.07546.T	C3L.07546	67	1	1	1	4	1	NA	pT3	pN1	1	IIB	80	6		1	3	3	3	3	3	1	1	2	6	NA	2	2	0	5	264
+C3L.07552.T	C3L.07552	60	2	1	1	4	1	NA	pT2	pN1	1	IIA	70	6		1	3	3	3	3	3	1	1	2	6	NA	2	2	0	5	279
+C3L.07558.T	C3L.07558	46	2	1	2	1	1	NA	pT4a	pN3b	4	IIIC	80	6		1	3	3	3	3	3	1	2	1	4	XRT (CR)	3	1	0	1	1119
+C3L.07614.T	C3L.07614	74	1	1	2	1	1	NA	pT3	pN0	1	IIA	80	6		3	3	3	3	3	3	1	1	1	1	5-FU (CR)	2	1	0	1	739
+C3L.07622.T	C3L.07622	58	1	1	1	1	1	NA	pT4a	pN1	1	IIIA	80	6		3	1	3	3	3	3	1	2	1	1	5-FU (CR)	2	1	0	1	728
+C3L.07624.T	C3L.07624	60	1	1	1	4	1	NA	pT4a	pN3	2	IIIB	70	6		3	1	3	3	3	3	2	1	1	1	5-FU (SD)	2	1	0	1	673
+C3L.07625.T	C3L.07625	72	2	1	5	2	1	NA	pT3	pN2	2	IIIA	70	6		1	3	3	3	3	3	1	1	2	6	NA	1	2	1	5	351
+C3L.07629.T	C3L.07629	62	1	1	2	1	1	NA	pT3	pN3b	4	IIIC	65	6		1	3	3	3	3	3	1	1	1	5	XRT (CR)->CAPOX (Capecitabine + Oxaliplatin) (CR)	2	1	0	1	777
+C3L.07637.T	C3L.07637	65	1	1	3	1	1	NA	pT3	pN1	1	IIB	72.5	6		3	2	3	3	3	3	2	3	1	4	XRT (CR)	2	1	0	3	769
+C3L.07645.T	C3L.07645	64	1	1	2	1	1	NA	pT4a	pN3b	1	IIIC	70	6		3	1	3	3	1	1	1	1	1	1	5-FU (CR)	2	1	0	1	733
+C3L.07671.T	C3L.07671	49	1	1	1	1	1	NA	pT4	pN0	1	IIB	70	6		1	3	3	3	3	3	1	1	2	6	NA	3	1	0	1	1226
+C3L.07673.T	C3L.07673	70	2	1	2	4	1	NA	pT1b	pN3	1	IIB	70	6		1	3	3	3	3	3	2	1	2	6	NA	2	2	0	5	250
+C3L.07676.T	C3L.07676	67	2	1	1	1	1	NA	pT3	pN0	4	IIA	80	1		3	3	3	3	3	3	1	1	1	4	XRT (CR)	3	1	0	1	1140
+C3L.07953.T	C3L.07953	83	1	1	1	4	1	NA	pT3	pN0	4	IIA	80	6		3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	9
+C3L.07954.T	C3L.07954	75	2	1	3	4	1	NA	pT3	pN0	4	IIA	80	1		1	3	3	3	3	3	2	1	2	6	NA	2	2	0	5	377
+C3L.07956.T	C3L.07956	77	1	1	5	3	1	NA	pT3	pN3b	2	IIIC	70	6		1	3	3	3	3	3	1	1	1	4	XRT (SD)	2	2	0	5	250
+C3L.07957.T	C3L.07957	65	1	1	2	3	1	NA	pT3	pN3	1	IIIC	25	6		1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	20
+C3L.07959.T	C3L.07959	49	2	1	1	4	2	Ovarian metastatic disease at time of surgery	pT4a	pN0	1	IV	80	6		1	3	3	3	3	3	1	2	1	4	XRT (CR)	2	2	0	1	272
+C3L.07963.T	C3L.07963	66	1	1	5	1	1	NA	pT3	pN2	1	IIIA	80	6		1	3	3	3	3	3	1	1	1	4	XRT (CR)	2	1	0	1	681
+C3L.07972.T	C3L.07972	63	1	1	1	2	1	"Liver mets 207 days from date of initial cancer diagnosis to date of new tumor event, no surgery, tx with chemotherapy"	pT3	pN3b	1	IV	70	6		1	3	3	3	3	3	2	2	2	6	NA	2	2	0	5	251
+C3L.07974.T	C3L.07974	75	1	1	3	4	1	NA	pT3	pN0	4	IIB	65	6		1	3	3	3	3	3	2	1	1	1	Cisplatin (CR)	2	1	0	1	770
+C3L.07979.T	C3L.07979	72	2	1	5	4	1	NA	pT4a	pN1	4	IIIA	70	6		1	3	3	3	3	3	1	1	2	6	NA	1	1	1	5	251
+C3L.07981.T	C3L.07981	68	1	1	5	5	1	NA	pT4b	pN2	2	IIIB	70	6		3	3	3	3	3	3	2	1	1	4	XRT (CR)	2	1	0	1	824
+C3L.07982.T	C3L.07982	69	2	1	1	2	1	NA	pT3	pN3a	1	IIIB	70	6		3	3	3	3	3	3	1	1	1	4	XRT (CR)	1	1	0	1	294
+C3L.07985.T	C3L.07985	69	1	1	5	1	2	Liver met	pT3	pN2	1	IV	70	6		3	3	3	3	3	3	1	1	1	4	XRT  - two courses of radiation therapy (CR)	2	1	0	1	764
+C3L.07987.T	C3L.07987	70	2	1	1	2	1	NA	pT3	pN2	4	IIIA	80	6		1	3	3	3	3	3	1	1	1	4	XRT (SD)	2	2	0	5	242
+C3L.07988.T	C3L.07988	72	2	1	2	2	2	Pancreas	pT3	pN3a	4	IV	50	1		3	3	3	3	3	3	1	1	2	6	NA	1	1	1	5	215
+C3L.07990.T	C3L.07990	76	2	1	1	4	1	NA	pT2	pN1	4	IIA	75	6		1	3	1	3	3	3	1	1	2	6	NA	1	2	0	5	6
+C3L.08154.T	C3L.08154	67	1	1	1	2	1	NA	pT4a	pN2	1	IIIA	80	1	80	1	3	3	3	3	3	1	1	1	1	5FU+Docitaxel+Oxaliplatin+Cisplatin (CR)	2	2	0	1	730
+C3L.08157.T	C3L.08157	70	2	1	2	2	1	?	pT4	pN3b	1	IV	50	1	90	3	3	3	3	3	3	1	3	2	6	NA	3	2	0	1	999
+C3L.08159.T	C3L.08159	62	1	1	2	3	1	NA	pT3	pN0	1	IIA	60	0	100	1	3	3	3	3	3	1	1	2	6	NA	3	2	0	1	1048
+C3L.08164.T	C3L.08164	56	1	1	3	4	1	NA	pT1a	pN0	1	IA	70	2	80	1	3	3	3	3	3	1	4	1	1	"paclitaxel, oxaliplatin, 5-fluorouracil (CR)"	3	2	1	1	612
+C3L.08230.T	C3L.08230	86	2	1	1	1	1	NA	pT2	pN3a	2	IIIA	60	6		3	1	3	3	3	3	1	1	2	6	NA	1	1	1	5	250
+C3L.08236.T	C3L.08236	73	1	1	2	1	1	NA	pT4a	pN0	1	IIB	70	6		3	1	3	3	3	3	1	1	1	5	UNK Chemotherapy +XRT (SD)	2	1	0	1	726
+C3L.08238.T	C3L.08238	46	1	1	2	4	1	NA	pT3	pN3b	1	IIIC	67.5	6		3	1	3	3	3	3	1	1	1	1	UNK Chemotherapy (SD)	1	1	0	1	347
+C3L.08241.T	C3L.08241	68	2	1	2	4	1	NA	pT4a	pN0	1	IIB	70	6		3	2	3	3	2	2	1	1	1	1	UNK Chemotherapy (PR)	1	1	0	2	370
+C3L.08242.T	C3L.08242	68	2	1	4	4	1	NA	pT2	pN0	1	IB	80	6		3	1	3	3	3	3	1	1	1	1	UNK Chemotherapy (PR)	1	1	0	2	363
+C3L.08244.T	C3L.08244	71	1	1	2	5	1	NA	pT3	pN3a	1	IIIB	75	6		3	3	3	3	3	3	2	4	1	1	UNK Chemotherapy (SD)	2	1	0	1	700
+C3L.08245.T	C3L.08245	77	1	1	4	1	1	NA	pT4a	pN0	1	IIB	70	6		3	1	3	3	3	3	1	1	1	1	UNK Chemotherapy (SD)	1	1	0	1	358
+C3L.08247.T	C3L.08247	53	2	1	1	2	1	NA	pT4a	pN3a	1	IIIB	60	6		3	3	3	3	3	3	4	4	1	1	UNK Chemotherapy (CR)	2	1	0	5	699
+C3L.08255.T	C3L.08255	70	1	1	1	1	1	Lung mets 437 days from initial cancer diagnosis	pT3	pN2	1	IIIA	70	0	90	1	3	3	3	3	3	2	1	2	6	NA	3	2	0	4	713
+C3L.08257.T	C3L.08257	67	1	1	1	2	1	NA	pT3	pN1	1	IIB	65	0	100	1	3	3	3	3	3	2	2	2	6	NA	3	1	0	1	1077
+C3L.08265.T	C3L.08265	60	2	1	5	1	1	Liver mets 311 vs 626 days from date of initial cancer diagnosis to date of new tumor event	pT4a	pN3b	1	IIIC	70	1	90	1	3	3	3	3	3	1	2	1	5	5FU LV 6 cycles postop IRR TD 45Gy in 25 (PD)->CDDP-5FU	3	1	0	4	664
+C3L.08266.T	C3L.08266	70	1	1	2	2	1	Retroperitoneal glands	pT4a	pN1	1	IIIA	60	0	100	1	3	3	3	3	3	2	3	1	5	5FU/Paclitaxel XRT (CR)->PD->CDDP + Capecitabine	2	1	0	4	708
+C3L.08267.T	C3L.08267	74	1	1	5	4	1	NA	pT3	pN3b	1	IIIC	90	1	90	1	3	3	3	3	3	2	1	1	2	Pembrolizumab (CR)	2	1	0	1	651
+C3L.08269.T	C3L.08269	75	1	1	1	2	1	NA	pT3	pN0	1	IIA	65	1	90	1	1	3	3	3	3	2	3	2	6	NA	3	1	0	1	1019
+C3L.08279.T	C3L.08279	73	2	1	5	4	1	NA	pT4a	pN3a	1	IIIC	62.5	0	100	3	3	1	3	3	3	1	1	1	1	CDDP/F-FU 3 months (PR)	2	2	0	2	44
+C3L.08296.T	C3L.08296	59	2	1	1	4	1	NA	pT3	pN0	1	IIB	50	1	90	1	3	3	3	3	3	1	3	1	5	XRT and 5-FU and CDDP (CR)	1	1	0	1	630
+C3L.08303.T	C3L.08303	61	1	1	5	1	1	Peritoneum and small intestine and colon	pT4a	pN2	1	IIIA	60	1	90	1	3	3	3	1	1	2	2	1	1	Docetaxel + 5FU (CR)->PD	2	2	1	4	622
+C3L.08311.T	C3L.08311	77	2	1	1	1	1	NA	pT3	pN0	1	IIA	80	1	90	1	3	3	3	3	3	1	1	2	6	NA	2	1	0	1	735
+C3L.08313.T	C3L.08313	71	1	1	5	4	1	NA	pT4b	pN3b	2	IIIC	60	5	0	1	3	3	3	2	1	3	3	1	1	5FU + Docetaxel (SD)	2	1	0	3	739
+C3L.08314.T	C3L.08314	70	1	1	1	4	1	NA	pT3	pN2	1	IIIA	65	0	100	1	3	3	3	2	1	2	1	2	6	NA	2	1	0	1	742
+C3L.08429.T	C3L.08429	61	1	1	5	1	1	NA	pT3	pN2	2	IIIA	85	1	90	1	3	3	3	3	3	2	2	1	5	5-FU/LV + XRT (PR)->CR	2	1	0	1	730
+C3L.08548.T	C3L.08548	86	1	1	5	2	2	Liver	pT4a	pN3b	2	IV	75	1	90	1	3	3	3	3	3	2	3	1	2	Pembrolizumab (PD)	1	2	1	4	320
+C3L.08561.T	C3L.08561	82	1	1	2	4	1	NA	pT3	pN0	1	IIA	70	1	90	1	3	3	3	3	3	3	1	2	6	NA	2	1	0	1	688
+C3L.08634.T	C3L.08634	48	2	1	5	4	1	Locoregional recurrence to lymph nodes	pT4	pN2	1	IIIA	60	6		1	3	3	3	3	3	1	1	2	6	NA	2	1	0	4	686
+C3L.08635.T	C3L.08635	67	1	1	3	4	1	NA	pT2	pN0	1	IB	65	6		1	3	3	3	3	3	2	1	2	6	NA	2	1	0	1	650
+C3L.08637.T	C3L.08637	70	2	1	3	1	1	NA	pT4b	pN1	1	IIIB	60	6		1	3	3	3	3	3	1	1	1	1	UNK Chemotherapy (CR)	2	1	0	1	858
+C3L.08654.T	C3L.08654	75	1	1	2	5	1	NA	pT3	pN2	4	IIIA	70	6		3	3	3	3	3	3	1	1	1	4	XRT (CR)	2	1	0	1	751
+C3L.08660.T	C3L.08660	78	2	1	5	5	1	NA	pT4a	pN2	1	IIIA	60	6		1	3	3	3	3	3	1	2	1	4	XRT (PR) ->CR	2	1	0	1	754
+C3L.08791.T	C3L.08791	54	2	4	1	4	1	NA	pT3	pN3a	4	IIIB	70	1	80	1	2	2	3	3	3	1	1	1	5	5-FU + XRT (CR) 12 treatments of chemoradiation	1	1	0	1	336
+C3L.08872.T	C3L.08872	74	2	1	5	4	1	NA	pT2	pN0	1	IB	60	6		3	3	3	3	3	3	1	1	1	5	UNK Chemotherapy + XRT (SD)	1	1	0	1	341
+C3L.08973.T	C3L.08973	61	2	1	2	4	1	NA	pT2	pN0	1	IB	75	6		3	3	3	3	3	3	1	1	1	5	UNK Chemotherapy + XRT (SD)	1	1	0	3	322
+C3L.08974.T	C3L.08974	81	2	1	2	4	1	NA	pT4a	pN3b	2	IIIC	60	6		1	2	3	3	3	3	1	1	1	1	UNK Chemotherapy (SD)	1	1	0	3	385
+C3L.08982.T	C3L.08982	69	2	1	1	4	1	NA	pT4a	pN2	1	IIIA	85	6		1	3	3	3	1	1	1	1	1	1	EPIRUBICINA+CISPLATINA+FLUOROURACIL (CR)	1	1	0	1	371
+C3L.08989.T	C3L.08989	53	2	1	1	4	1	NA	pT2	pN0	1	IB	65	6		1	3	3	3	1	1	2	1	1	1	EPIRUBICINA+CISPLATINA+FLUOROURACIL (CR)	1	1	0	1	358
+C3L.08992.T	C3L.08992	69	2	1	1	2	1	NA	pT3	pN2	1	IIIA	67.5	6		1	3	3	3	1	3	1	1	1	1	FLUOROURACIL (CR)	1	1	0	1	364
+C3L.09049.T	C3L.09049	67	2	1	5	4	2	Intestines	pT4a	pN3	1	IV	60	6		3	3	3	3	3	3	1	1	1	1	EPIRUBICINA+CISPLATINA+FLUOROURACIL (CR)	1	1	0	1	362
+C3L.09059.T	C3L.09059	73	1	1	5	2	1	NA	pT4a	pN3b	4	IIIB	65	6		1	3	3	3	3	3	2	1	2	6	NA	1	2	0	5	8
+C3L.09061.T	C3L.09061	45	2	1	1	4	2	"pancreas, small intestine,"	pT4b	pNX	3	IV	65	6		2	3	3	3	3	3	2	2	2	6	NA	1	2	0	5	5
+C3L.09066.T	C3L.09066	66	2	1	1	2	1	NA	pT3	pN3b	4	IIIB	75	6		1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	7
+C3L.09082.T	C3L.09082	68	1	1	5	1	1	NA	pT4b	pN3a	1	IIIC	70	6		3	3	3	3	3	3	1	1	1	4	XRT (CR)	2	2	0	5	356
+C3L.09086.T	C3L.09086	84	1	1	4	4	1	NA	pT3	pN1	1	IIB	75	6		1	3	3	3	3	3	2	1	1	4	XRT (CR)	2	1	0	1	818
+C3L.09098.T	C3L.09098	70	2	1	5	5	1	NA	pT4a	pN1	1	IIIA	70	6		3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	7
+C3L.09184.T	C3L.09184	54	1	1	5	4	2	Omentum (Epiploon)	pT4b	pN3a	1	IV	65	6		1	3	3	1	3	3	1	1	1	1	epirubicina+cisplatina+capecitabina (SD)	1	1	0	1	332
+C3L.09189.T	C3L.09189	72	1	1	4	1	2	Spleen	pT4	pN1	2	IV	60	6		1	3	1	2	3	3	2	2	1	1	Cisplatin- 6 cycles Capecitabin-4 cycles	1	1	0	5	349
+C3L.09191.T	C3L.09191	32	2	1	1	2	1	NA	pT3	pN3b	1	IIIB	67.5	6		3	1	3	3	3	3	1	2	1	1	UNK Chemotherapy (SD)	1	1	0	1	329
+C3L.09204.T	C3L.09204	81	2	1	2	4	1	NA	pT4a	pN1	1	IIIA	75	6		3	2	3	3	3	3	1	1	1	1	"epirubicina, cisplatina, fluorouracil (SD)"	1	1	0	1	348
+C3L.09206.T	C3L.09206	67	1	1	2	2	1	NA	pT4a	pN0	1	IIB	70	6		3	3	3	3	3	3	2	2	1	1	UNK Chemotherapy (SD)	1	1	0	3	336
+C3L.09227.T	C3L.09227	76	1	1	4	2	1	NA	pT3	pN2	4	IIIB	80	6		1	3	3	3	3	3	2	1	2	6	NA	1	2	0	5	7
+C3L.09379.T	C3L.09379	64	1	1	5	1	1	NA	pT2	pN3a	1	IIA	75	0	90	1	3	3	3	3	3	4	4	1	1	Paclitaxel and Capecitabine (CR)	2	1	0	1	747
+C3L.09390.T	C3L.09390	81	1	1	2	1	1	NA	pT3	pN0	1	IIA	50	0	100	1	3	3	3	3	3	2	3	1	5	5-Fluorouracil (5-Fu) and leucovorin (LV) + XRT (CR)	2	1	0	1	713
+C3L.09396.T	C3L.09396	68	1	1	5	4	1	NA	pT4a	pN3b	2	IIIC	55	1	90	1	3	3	3	3	3	4	3	1	3	paclitaxel Carboplatin 6cy (SD) later Pembrolizumab - ongoing (PR)->(CR)	2	1	0	1	712
+C3L.09397.T	C3L.09397	68	1	1	5	2	1	NA	pT4a	pN3a	2	IIIB	70	1	90	1	3	3	3	3	3	2	1	2	6	NA	1	1	1	4	383
+C3L.09400.T	C3L.09400	79	2	1	2	1	1	NA	pT4a	pN1	1	IIIA	60	1	90	1	3	3	3	3	3	3	1	2	6	NA	2	2	1	5	520
+C3L.09552.T	C3L.09552	46	1	1	3	2	1	NA	pT3	pN0	4	IIA	75	6		1	3	3	3	3	3	1	1	1	2	Nivolumab (CR)	2	1	0	1	854
+C3L.09554.T	C3L.09554	79	2	1	5	1	2	Pancreas	pT4b	pN2	1	IV	80	6		1	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	7
+C3L.09561.T	C3L.09561	68	1	1	1	4	1	NA	pT4b	pN3a	1	IIIA	65	6		3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	13
+C3L.09775.T	C3L.09775	65	1	1	2	4	1	NA	pT1b	pN0	1	IA	46.67	6		1	3	3	3	3	3	1	1	1	1	5-FU (CR)	1	1	0	5	311
+C3L.09778.T	C3L.09778	67	1	1	1	1	1	NA	pT3	pN1	1	IIB	65	6		1	1	3	3	3	3	2	1	1	1	Cisplatin Oxaliplatin (CR)	1	1	0	5	412
+C3L.09808.T	C3L.09808	74	1	1	2	2	1	NA	pT1a	pN0	1	IA	50	6		1	3	3	3	3	3	1	1	1	1	5-FU (CR)	1	1	0	5	371
+C3L.09811.T	C3L.09811	72	1	1	1	1	1	NA	pT3	pN0	1	IIA	70	6		3	1	3	3	1	2	2	2	2	1	Oxaliplatin	1	1	0	5	321
+C3L.09966.T	C3L.09966	85	2	1	3	1	1	NA	pT4a	pN2	1	IIIB	60	6		3	3	3	3	3	3	1	1	2	1	Chemotherapy (Imatinib 100mg) (CR)	2	1	0	1	719
+C3L.09973.T	C3L.09973	63	1	1	5	4	1	Locoregional Recurrence to unknown site treated with Radiation Therapy	pT3	pN3b	1	IIIB	50	6		3	3	1	3	3	3	1	1	1	4	XRT 25 courses for 2 months (PR)	2	1	0	2	723
+C3L.09985.T	C3L.09985	71	2	1	2	1	2	Liver	pT4a	pN3a	1	IV	70	6		3	3	3	3	3	3	1	1	2	6	NA	1	2	0	5	8
+C3L.10083.T	C3L.10083	53	1	1	1	5	1	NA	pT3	pN3a	1	IIIA	70	6		1	3	1	3	3	3	1	1	1	5	XRT (PR)->Docetaxel 160 mg (CR)	2	1	0	1	745
+C3L.10122.T	C3L.10122	72	2	1	1	1	1	NA	pT4a	pN2	1	IIIA	50	1	90	3	3	2	3	3	3	1	1	2	6	NA	1	1	0	1	362
+C3L.10132.T	C3L.10132	73	2	1	1	4	1	NA	pT2	pN0	1	IA	65	6		3	3	3	3	3	3	1	1	2	6	NA	1	1	0	5	308
+C3L.10135.T	C3L.10135	64	1	1	5	4	2	Omentum	pT3	pN3a	1	IV	60	6		1	3	3	3	3	3	1	1	2	5	Fluorouracil and XRT (PR)	2	1	0	2	735
+C3L.10231.T	C3L.10231	80	1	1	2	3	1	NA	pT4a	pN1	2	IIIA	15	1	90	1	3	3	3	3	3	2	3	2	6	NA	1	1	0	1	344
+C3N.08883.T	C3N.08883	63	1	1	2	4	1	NA	pT4a	pN3b	4	IIIC	55	1	90	3	3	3	3	3	3	1	1	1	5	Chemotherapy + XRT (PD)	1	1	1	4	523
+C3N.08896.T	C3N.08896	56	2	1	5	4	1	NA	pT1	pN0	3	IA	85	1	80	1	3	1	3	2	3	2	1	1	4	XRT (PD)	1	1	1	4	355
